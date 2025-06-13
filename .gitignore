@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+.pnpm-store/ # Если используешь pnpm
+
+# Build outputs
+/dist/
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# Test reports
+/coverage/
+*.log

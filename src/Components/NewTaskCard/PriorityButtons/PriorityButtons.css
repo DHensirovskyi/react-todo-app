@@ -1,0 +1,37 @@
+button{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: none;
+    border: 0.8px solid rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 1rem;
+    width: auto;
+    align-self: flex-start;
+}
+
+button:hover{
+    background: #ffffff06;
+}
+
+button:active{
+    background: #ffffff12;
+}
+
+.normal{
+    padding-left: 1.3rem;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.secondary{
+    padding-left: 1.3rem;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.important{
+    padding-left: 1.3rem;
+    border-radius: 0px 5px 5px 0px;
+}
